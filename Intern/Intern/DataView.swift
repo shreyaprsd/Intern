@@ -56,7 +56,7 @@ struct DataView: View {
         
     }
     func fetchData(){
-        let urlString = "https://www.omdbapi.com/?i=tt3896198&apikey=d4f97daa"
+        let urlString = "https://www.omdbapi.com/?i=tt3896198&apikey=add your own api key"
         guard let url = URL(string: urlString) else { return
         }
         
